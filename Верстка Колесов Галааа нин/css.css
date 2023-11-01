@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(139, 115, 101);
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    margin-top: 40px;
+    height: 670px;
+}
+
+
+.wrapper div{
+    width: 360px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.color{
+    background-color: blanchedalmond;
+    height: 100%;
+}
+
+.color h1{
+    color: red;
+}
+
+.color .information__characteristics-price button{
+    background-color: rgb(128, 33, 33);
+}
+
+.information__characteristics div{
+    padding-left: 20px;
+}
+
+.information__characteristics-name{
+    border-bottom: 1px solid rgb(177, 177, 112);
+
+}
+
+.information__characteristics-name h1{
+    font-weight: 500;
+
+}
+
+.information__characteristics-size{
+    border-bottom: 1px solid rgb(177, 177, 112);
+}
+
+.information__characteristics-domens{
+    border-bottom: 1px solid rgb(177, 177, 112);
+}
+
+.information__characteristics-rezerv{
+    border-bottom: 1px solid rgb(177, 177, 112);
+}
+
+.information__characteristics-price{
+    border-bottom: 1px solid rgb(177, 177, 112);
+}
+
+.information__characteristics-price{
+    text-align: center;
+}
+
+.information__characteristics-price p{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.information__characteristics-price button{
+    padding: 10px;
+    background-color: rgb(110, 110, 96);
+    border: 0px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
